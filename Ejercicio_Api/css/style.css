@@ -1,0 +1,18 @@
+body {
+   width:auto;
+   height: 100%;
+   margin: 10px;
+   padding: 0px;
+   text-align: center;
+}
+
+
+div#div-video {
+    margin-top: 3%;
+}
+
+.button{
+    color:white;
+    background-color: rgb(111, 6, 209);
+    border-radius: 9%;
+}

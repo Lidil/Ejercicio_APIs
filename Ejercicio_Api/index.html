@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>Ejercicio API's</title>
+    </head>
+    <body>
+        <div class="contenedor">
+            <div>
+                <h1 class="centro">Cargue su video para visualizarlo</h1>
+            </div>   
+                <label for="file"></label>
+                <input type="file" class="select-video" id="file" name="file" accept="video/*">
+                <output id="video-output"></output>
+
+               <!---Botones play, pause y volumen-->
+               <!--Añadir style visibility hidden para que no salga -->
+               <div >
+                <button class="button" id="play" title="Play" style="visibility: hidden;">Play</button>
+                <button class="button" id="pause" title="Pause" style="visibility: hidden;">Pausar</button>
+                <button class="button" id="volumen_mas" title="volumen_mas" style="visibility: hidden;">Subir Volumen</button>
+                <button class="button" id="volumen_menos" title="volumen_menos" style="visibility: hidden;">Bajar Volumen</button>
+               </div>
+        </div>  
+        
+        <script type="text/javascript" src="js/scripts.js"></script>
+    </body>
+</html>
